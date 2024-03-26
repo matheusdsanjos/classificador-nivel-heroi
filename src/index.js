@@ -15,7 +15,7 @@ else if (heroi[1] >= 8001 && heroi[1] <= 9000)
     nivel = "Ascendente"
 else if (heroi[1] >= 9001 && heroi[1] <= 10000)
     nivel = "Imortal"
-else if (heroi[1] >= 100000)
+else
     nivel = "Radiante"
 
 console.log(`O Herói ${heroi[0]} está no nível ${nivel}!`);
